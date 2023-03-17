@@ -8,7 +8,7 @@ header {
 }
 
 .logoHeader {
-    max-width: 8%;
+    max-width: 12vmin;
     margin: 8px auto;
 }
 
@@ -19,7 +19,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: linear-gradient(to top right, rgba(130,130,225,130) 150px, rgba(253,137,139,150), rgba(255,180,51,130) 95%);
+    background-image: linear-gradient(to top right, rgba(243,130,220,130) 150px, rgba(253,137,139,150), rgba(255,180,51,130) 95%);
 }
 
 .principal {
