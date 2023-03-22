@@ -2,14 +2,23 @@
     box-sizing: border-box;
 }
 
-header {
+.navbar {
     display: flex;
-    background-color: #2e2e2e;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logoHeader {
-    max-width: 12vmin;
+    max-width: 6vh;
     margin: 8px auto;
+    border-radius: 100%;
+}
+
+.logoHeader:hover {
+    max-width: 8vh;
+    box-shadow: 0 -4px 15px 0.1vh #646464;
 }
 
 body {
@@ -24,15 +33,15 @@ body {
 
 .principal {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
-    max-width: 1400px;
+    min-height: 100vh;
 }
 
 .logoPrincipal {
     object-fit: cover;
-    min-width: 70%;
+    max-width: 55vw;
 }
 
 .sketchfab-embed-wrapper{
