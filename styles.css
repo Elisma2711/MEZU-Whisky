@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width: 750px) {
-.topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         padding: 30px;
         float: right;
@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 750px) {
-.topnav.responsive {position: relative;}
+    .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -179,6 +179,23 @@ footer {
     padding: 3%;
     padding-left: 10%;
     font-family: Verdana, Geneva, sans-serif;
+}
+
+@media screen and (max-width: 750px) {
+    div.textoPresentacion {
+        display: block;
+    }
+    div.titulo {
+        margin: auto;
+        max-width: 750px;
+    }
+    div.titulo h1 {
+        margin: auto;
+        margin-top: 10px;
+    }
+    div.parrafos {
+        padding: 5%;
+    }
 }
 
 .gallery {
