@@ -10,38 +10,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MEZU Whisky</title>
 </head>
-<header>
-    <div class="topnav" id="myTopnav">
-        <a href="/index.html" class="active"><img src="./resources/logomezupng.png" alt="Logo MEZU Fotografía"></a>
-        <a href="/galeria.html"><h2>GALERÍA DE FOTOS</h2></a>
-        <a href="/modelo.html"><h2>MODELO DE LA CABINA</h2></a>
-        <a href="/contacto.html"><h2>CONTACTO</h2></a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-</header>
-<body>
-
-    <div class="principal">
-        <img class="logoPrincipal" src="resources/logoWhisky.png" alt="Logo grande MEZU Whisky">
-    </div>
-    <div class="textoPresentacion">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae amet saepe expedita vero, sint voluptatem maxime laborum magnam sit quasi molestias eum rerum a! Sint earum reprehenderit corporis pariatur explicabo?
-    </div>
-</body>
-<footer>
-    <p>Ismael Aloy</p>
-    <p>MEZU Whisky®</p>
-</footer>
+<div class="pagina">
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html" class="active"><img src="./resources/logomezupng.png" alt="Logo MEZU Fotografía"></a>
+            <a href="/galeria.html"><h2>GALERÍA DE FOTOS</h2></a>
+            <a href="/modelo.html"><h2>MODELO DE LA CABINA</h2></a>
+            <a href="/contacto.html"><h2>CONTACTO</h2></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script src="navbar.js"></script>
+    </header>
+    <body>
+    
+        <div class="principal">
+            <img class="logoPrincipal" src="resources/logoWhisky.png" alt="Logo grande MEZU Whisky">
+        </div>
+        <div class="textoPresentacion">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae amet saepe expedita vero, sint voluptatem maxime laborum magnam sit quasi molestias eum rerum a! Sint earum reprehenderit corporis pariatur explicabo?
+        </div>
+    </body>
+    <footer>
+        <div class="frstRow">
+            <p>Ismael Aloy</p>
+            <p>MEZU Whisky®</p>
+        </div>
+    </footer>
+</div>
 </html>
