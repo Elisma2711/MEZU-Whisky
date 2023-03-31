@@ -101,7 +101,7 @@ body {
 .sketchfab-embed-wrapper{
     display: flex;
     max-width: 1400px;
-    margin: 5px auto;
+    margin: 40px auto;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -113,32 +113,61 @@ body {
     width: 80%;
     height: 100%;
     min-height: 600px;
+    box-shadow: 0 0 10px 5px black;
 }
 
 footer {
     background-color: #646464;
     display: flex;
-    position: relative;
+    margin-top: 20px;
+    position: static;
     width: 100%;
+    height: 20vh;
     bottom: 0;
 }
 
 .textoPresentacion {
     background-color: black;
+    display: flex;
     color: white;
     margin: auto;
     padding: 5%;
-    height: 15vh;
+    min-height: 15vh;
     max-width: 70vw;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 30px;
 }
 
-.frstRow {
-    position: relative;
-    width: 100%;
-}
-
-.frstRow p {
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 430px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+footer div {
+    color: #2e2e2e;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer div img {
+    width: auto;
+    height: 20px;
 }
