@@ -1,0 +1,69 @@
+.principal {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2vh;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.logoPrincipal {
+    object-fit: cover;
+    max-width: 55vw;
+}
+
+.textoPresentacion {
+    background-color: black;
+    display: flex;
+    color: white;
+    margin: auto;
+    min-height: 15vh;
+    max-width: 100vw;
+    text-align: center;
+    bottom: 0;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo {
+    line-height: 1.5;
+    text-transform: uppercase;
+    vertical-align: middle;
+    min-height: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    max-width: 200px;
+}
+
+.titulo h1 {
+    margin: auto;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.parrafos {
+    line-height: 1.75;
+    font-size: 2vh;
+    padding: 3%;
+    padding-left: 10%;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 750px) {
+    div.textoPresentacion {
+        display: block;
+    }
+    div.titulo {
+        margin: auto;
+        max-width: 750px;
+    }
+    div.titulo h1 {
+        margin: auto;
+        margin-top: 10px;
+    }
+    div.parrafos {
+        padding: 5%;
+    }
+}

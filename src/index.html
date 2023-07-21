@@ -2,12 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PaginaFront</title>
+  <title>MEZU Whisky</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+<header>
+  <div class="topnav" id="myTopnav">
+      <a href="/" class="active"><img src="./assets/logomezupng.png" alt="Logo MEZU Fotografía"></a>
+      <a href="/galeria.html"><h2>GALERÍA DE FOTOS</h2></a>
+      <a href="/modelo.html"><h2>MODELO DE LA CABINA</h2></a>
+      <a href="/contacto.html"><h2>CONTACTO</h2></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</header>
 <body>
   <app-root></app-root>
 </body>
+<footer>
+  <div class="frstCol">
+      <p>by Ismael Aloy</p>
+  </div>
+  <div class="scndCol">
+      <p><b>Contacto</b></p>
+      <p><a href="https://www.instagram.com/mezu_uy/"><img src="assets/instagram.png" alt="Instagram Logo"></a>  
+          <a href="https://wa.me/message/HI7ZFO5JOF2VI1"><img src="assets/whatsapp.png" alt="WhatsApp Logo"></a></p>
+  </div>
+  <div class="thrdCol">
+      <p>MEZU Whisky®</p>
+  </div>
+</footer>
 </html>
