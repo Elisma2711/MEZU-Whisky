@@ -1,0 +1,48 @@
+.contactos {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 50vw;
+    margin: auto;
+    margin-top: 5vh;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 5%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.contactos div {
+    line-height: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 5%;
+}
+
+.contactos div img {
+    width: auto;
+    height: 50px;
+    margin: auto 15px;
+}
+
+.contactos div p {
+    margin: auto 15px;
+    font-size: 0.1rem;
+}
+
+.contactos div p a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.contactos div p a:link {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 750px) {
+    div.contactos div {
+        grid-template-columns: repeat(1,1fr);
+    }
+    div.contactos div p {
+        font-size: 0.1rem;
+    }
+}
